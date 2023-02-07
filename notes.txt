@@ -1,0 +1,43 @@
+The python programming language allows you to use multiprocessing or multithredi
+ng.
+
+WHAT IS THREAD:--
+--------------
+        A thread is a unit of execution on concurrent programming.
+        Multithreding is a technique which allows a CPU to execute
+        many tasks of one process at the same time.These threads can
+        execute individually while sharing their process resources.
+
+WHAT IS PROCESS?
+---------------
+A process is basically the program in execution. when you start application
+in your computer the operating system creates a process.
+
+
+What is Multithreading in Python?
+---------------------------------
+	Multithreading in python is a well know technique in which multiple threads in a process share thier data space with main thread which makes informationsharing and communication within threads easy and efficient.The purpose of multiplethreading is to run multiple tasks and function cells at the same time.
+
+
+WHAT IS MULTIPROCESSING?
+------------------------
+Multiprocessing allows you to run multiple unrelated process simultaneously.
+these process do not share thier resources and communicate through IPC.
+
+
+PYTHON MULTITHREADING VS MULTIPROCESSING
+----------------------------------------
+
+To understand processes and threds, consider this scenario:An .exe file on your computer is a program.when you open it the os loads it into memory and the cpu executes it.The instance of the program which is now running is called the process.
+
+Every process will have 2 fundamental components:
+	i)The code
+	ii)The data
+Now a process can contain one or morre sub-parts called threds. This depends on the os architecture.you can think about a thred as a section of the process which can be executed seperately by the operating system.
+ 
+In other words it is a stream of instructions which can be run independently by the os.threads within a single process share the data of that process and are desinged to work together for facilating parallelism.
+
+Why use Multithreading?
+-----------------------
+Multithreding allows you to break down an application into mutiple sub-tasks and run these tasks sumultaneously.if you use multithreading properly you application speed performance and rendering can all be improved.
+
