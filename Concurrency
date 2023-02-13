@@ -1,0 +1,33 @@
+What Is Concurrency?
+--------------------
+        To understand concurrent programming lets compare concurrent programming to sequential
+        programming.
+
+        In sequential computing, the components of program are executed step-by-step to
+        produce correct results;
+        however, in concurrent computing, different program components are independent or semi-independent.
+        therefore a processor can run components in different states independently and simultaneously.
+
+        The main advantage of concurrency is in improving a program's runtime, which means
+        that since the processor runs the independent tasks simultaneously , less time is necessary
+        for the processor to run the entire program and accomplish the main task.
+
+
+
+
+What's the difference between Concurrency and parallelism?
+----------------------------------------------------------
+
+Concurrency is a condition wherein two or more tasks can be initiated and completed in
+overlapping period on a single processor and core.
+
+Parallelism is a condition wherein multiple task or distributed parts of task run
+independently and simultaneously on multiple processors. so parallelism  isn't possible
+on machines with single processor and a single core.
+
+
+Imagine two queues of customers;concurrency means a single cashier servers
+customers by switching between two queues. Parallelism means two cashiers
+simultaneously serve the two queues of customers.
+
+

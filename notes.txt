@@ -46,6 +46,6 @@ together for facilitating parallelism.
 
 Why use Multithreading?
 -----------------------
-Multithreading allows you to break down an application into mutiple sub-tasks and run these tasks simultaneously.
+Multithreading allows you to break down an application into multiple sub-tasks and run these tasks simultaneously.
 if you use multithreading properly you application speed performance and rendering can all be improved.
 
