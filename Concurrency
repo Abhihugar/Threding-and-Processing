@@ -31,3 +31,17 @@ customers by switching between two queues. Parallelism means two cashiers
 simultaneously serve the two queues of customers.
 
 
+
+
+Multithreading in python
+------------------------
+    python virtual machine is not thread sage interpreter, meaning that the
+    interpreter can execute only one thread at any given moment.
+
+    This limitation is enforced by the python Global Interpreter lock.
+    which essentially limits one python thread to run at a time.
+     in other words.
+
+     GIL ensures that only one thread runs within the same process
+     at the same time on single processor.
+
